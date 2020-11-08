@@ -40,6 +40,21 @@ public class Navigation {
     rightMotor.rotate(convertDistance(dist), false);
     // Don't forget that destination.x and destination.y are in feet, not meters
   }
+  
+  /** turn to face the given destination.
+   * 
+   * @param destination the destination waypoint
+   * @author bokunzhao
+   */
+  public static void turnTo(Point destination) {
+    // Think carefully about how you would integrate line detection here, if necessary
+    double[] currentPosition = odometer.getXyt();
+    double currentX = currentPosition[0] / TILE_SIZE;
+    double currentY = currentPosition[1] / TILE_SIZE;
+    Point current = new Point(currentX, currentY);
+    double destAngle = getDestinationAngle(current, destination);
+    turnTo(destAngle);
+  }
 
   /**
    * Turns the robot with a minimal angle towards the given input angle in degrees, no matter what

@@ -10,7 +10,8 @@ WorldInfo {
         1000
       ]
       bounce 0.1
-      softCFM 1e-05
+      softERP 0.4
+      softCFM 0.00025
     }
     ContactProperties {
       material1 "DPM-Tile"
@@ -18,13 +19,14 @@ WorldInfo {
       coulombFriction [
         1000
       ]
-      softCFM 0.0001
+      softERP 0.4
+      softCFM 1e-05
     }
   ]
 }
 Viewpoint {
-  orientation -0.9999658320587946 -0.0056772335579568164 -0.00600863828922105 1.627534113575467
-  position 4.124183426903349 1.8445029275217086 2.3697053079897183
+  orientation -0.9999700176319938 -0.005565969982392503 -0.005383661878797101 1.5375299662137794
+  position 3.8349035868000323 3.903141232747909 2.0832463391440417
 }
 TexturedBackground {
 }
@@ -264,9 +266,8 @@ DPM-Block {
   mass 2
 }
 DPM-Robot {
-  hidden rotation_4 -0.8488092608349898 -0.03356373344675391 0.5276327458733712 4.010461356176402
-  translation 4.38975 0.08 2.61791
-  rotation 0 -1 0 -0.2618053071795865
+  translation 4.36448 0.08 2.48266
+  rotation 0 1 0 -3.1415853071795863
   children [
     EV3-Ultrasonic {
       name "S1"
