@@ -27,7 +27,7 @@ public class UltrasonicLocalizer {
   /** The threshold for facing away from wall */
   private static int OPEN_SPACE = 100;
   /** Noise Margin = d+/- y. */
-  private static int d = 70;
+  private static int d = 50;
   private static int y = 10;
   /** angles when entering noise Margin. */
   private static double a0 = -1d;

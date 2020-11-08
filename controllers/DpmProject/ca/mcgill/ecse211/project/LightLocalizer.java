@@ -26,7 +26,7 @@ public class LightLocalizer {
   private static double leftVal;
 
   /** Distance between the color sensors and the middle of the robot, in feet. */
-  private static final double ALIGN_WHEELS_WITH_LINE_DISTANCE = 0.114; // = 0.0350 meters
+  private static final double ALIGN_WHEELS_WITH_LINE_DISTANCE = 0.145; // = 0.0350 meters
 
   /** Threshold to distinguish tiles from lines. */
   private static final double LINE_THRESHOLD = 100.0;

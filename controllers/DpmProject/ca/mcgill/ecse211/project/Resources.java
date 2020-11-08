@@ -42,13 +42,10 @@ public class Resources {
   
   /** The robot width in meters. */
   //From the middle of the left wheel to the middle of the right wheel
-  public static final double BASE_WIDTH = 0.1616; // true value: (0.05566 + 0.022) * 2 = 0.15532
+  public static final double BASE_WIDTH = 0.160; // true value: (0.05566 + 0.022) * 2 = 0.15532
   
-  /** The distance between the color sensors and the wheels in meters(Y AXIS). */
-  public static final double COLOR_SENSOR_TO_WHEEL_DIST = 0.0325;
-  
-  /** The distance between the color sensors and the wheels in meters(X AXIS). */
-  public static final double COLOR_SENSOR_TO_WHEEL_DIST_X_axis = 0.0315;
+  /** The distance between the color sensors and the wheels in feet (Y AXIS). */
+//  public static final double COLOR_SENSOR_TO_WHEEL_DIST = 0.125;
   
   /** The speed at which the robot moves forward in degrees per second. */
   public static final int FORWARD_SPEED = 300;

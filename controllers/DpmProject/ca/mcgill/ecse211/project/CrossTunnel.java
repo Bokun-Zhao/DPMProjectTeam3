@@ -10,8 +10,8 @@ import ca.mcgill.ecse211.playingfield.Point;
 public class CrossTunnel {
 
   // Tunnel coordinate for sample map red zone
-  public static final Point TNL_LL = new Point(4, 7);
-  public static final Point TNL_UR = new Point(6, 8);
+  public static final Point TNL_LL = new Point(10, 3);
+  public static final Point TNL_UR = new Point(11, 5);
   
   private static boolean isHorizontalTunnel;
   
@@ -42,7 +42,7 @@ public class CrossTunnel {
     }
     
     // go to the middle of exiting square
-    LightLocalizer.moveStraightFor(1.5);
+    LightLocalizer.moveStraightFor(1.7);
     
     // Get current robot location
     double[] currentOdo = odometer.getXyt();

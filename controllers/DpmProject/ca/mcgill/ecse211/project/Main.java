@@ -7,6 +7,7 @@ import static ca.mcgill.ecse211.project.Resources.VECTORS_FILE;
 import static ca.mcgill.ecse211.project.Resources.leftMotor;
 import static ca.mcgill.ecse211.project.Resources.odometer;
 import static ca.mcgill.ecse211.project.Resources.rightMotor;
+import static ca.mcgill.ecse211.project.Resources.TILE_SIZE;
 import static simlejos.ExecutionController.performPhysicsStep;
 import static simlejos.ExecutionController.setNumberOfParties;
 import static simlejos.ExecutionController.sleepFor;
@@ -14,6 +15,7 @@ import static simlejos.ExecutionController.waitUntilNextStep;
 
 import ca.mcgill.ecse211.playingfield.Point;
 import simlejos.hardware.ev3.LocalEV3;
+import java.awt.image.TileObserver;
 import java.io.IOException;
 import java.nio.file.Files;
 import java.util.Arrays;
@@ -57,11 +59,13 @@ public class Main {
 //    leftMotor.setSpeed(ROTATE_SPEED);
 //    rightMotor.setSpeed(ROTATE_SPEED);
 //    LightLocalizer.turnBy(720);
-    pause();
+//    pause();
 //    leftMotor.setSpeed(ROTATE_SPEED);
 //    rightMotor.setSpeed(ROTATE_SPEED);
 //    LightLocalizer.turnBy(-360);
+//    pause();
     LightLocalizer.localize();
+    pause();
     
     /* TODO logic to implement:
      * 1. if starting_zone_LL == (0, 0), setOdo (0.3048, 0.3048, 0) (i.e. (1, 1, 0))
@@ -69,15 +73,15 @@ public class Main {
      * 3. else: calculate UL and LR
      * 4. check UL and LR, similar to 1. and 2. 
      */
-    odometer.setXyt(0.3048, 2.4384, 90); // red zone:(1, 8, facing east)
+    odometer.setXyt(TILE_SIZE*14, TILE_SIZE*1, 270); // red zone:(1, 8, facing east)
     
     // beep three times
-    LocalEV3.audio.beep();
-    sleepFor(20000);
-    LocalEV3.audio.beep();
-    sleepFor(20000);
-    LocalEV3.audio.beep();
-    pause();
+//    LocalEV3.audio.beep();
+//    sleepFor(20000);
+//    LocalEV3.audio.beep();
+//    sleepFor(20000);
+//    LocalEV3.audio.beep();
+//    pause();
     
     odometer.printPositionInTileLengths();
 
