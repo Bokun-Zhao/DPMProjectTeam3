@@ -90,6 +90,32 @@ public class LightLocalizer {
   }
   
   /**
+   * A fragement of the localize() method, used for 1D correction after leaving the corner.
+   * @author bokunzhao
+   */
+  public static void correct() {
+    setup();
+
+    updateColorReadings();  
+    System.out.println("Starting Light correction...");
+    
+    forwardMotors();
+
+    while (!onABlackLine()) {
+      updateColorReadings();
+      sleepFor(500);
+    }
+    print("Horizontal black Line Detected! - 1");
+
+    // Fix robot orientation if needed
+    correctRobotPosition();
+
+    // Align wheel axis with black line
+    setup();
+    moveStraightFor(ALIGN_WHEELS_WITH_LINE_DISTANCE);
+  }
+  
+  /**
    * Was suppose to backup AND do correction based on the push direction.
    * Correction was not successfully implemented.
    * @param pd the push direction of the box
@@ -262,7 +288,7 @@ public class LightLocalizer {
   }
 
   /**
-   * Stops both motors.
+   * Forward both motors.
    */
   public static void forwardMotors() {
     leftMotor.forward();
