@@ -1,0 +1,11 @@
+Webots Proto Cache File version 1.5
+protoFileHash: 70c9d018d52b7a8ec6628771bf87ea38
+needsRobotAncestor: 1
+baseType: Solid
+slotType: 
+parameters: name,translation,rotation
+tags: 
+license:  Creative Commons Attribution 4.0 International Public License
+licenseUrl:  https://creativecommons.org/licenses/by/4.0/legalcode
+documentationUrl: 
+info: LEGO\sMindstorm\sNXT\sUltrasonic\sSensor\sby\sOlivier\sSt-Martin\sCormier\nLEGO(R)\sis\sa\strademark\sof\sthe\sLEGO\sGroup\sof\scompanies\swhich\sdoes\snot\ssponsor,\sauthorize\sor\sendorse\sthis\sfile.\n

@@ -1,0 +1,11 @@
+Webots Proto Cache File version 1.5
+protoFileHash: 41bb0e377848908883889b7abb4b29e8
+needsRobotAncestor: 0
+baseType: Group
+slotType: 
+parameters: name,dimension,infiniteCollisionObject,tileSize,tileBorderSize,tileMainColor,tileEdgeColor,tileDrawBackFace,wallHeight,wallThickness,children
+tags: static
+license:  Copyright Cyberbotics Ltd. Licensed for use only with Webots.
+licenseUrl:  https://cyberbotics.com/webots_assets_license
+documentationUrl: 
+info: DPM\sTesting\sFloor\n

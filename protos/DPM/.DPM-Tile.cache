@@ -1,0 +1,11 @@
+Webots Proto Cache File version 1.5
+protoFileHash: ee70d594d52f99bf5c1c3db29ded926d
+needsRobotAncestor: 0
+baseType: Solid
+slotType: 
+parameters: name,translation,tileSize,borderSize,mainColor,edgeColor,boundingObject,infiniteBoundingObject,drawBackFace,edgeRoughness,edgeMetalness,mainRoughness,mainMetalness
+tags: 
+license:  Creative Commons Attribution 4.0 International Public License
+licenseUrl:  https://creativecommons.org/licenses/by/4.0/legalcode
+documentationUrl: 
+info: ECSE211\s(DPM)\sTile\sProto\sby\sOlivier\sSt-Martin\sCormier\nUnits\sare\smeters\n

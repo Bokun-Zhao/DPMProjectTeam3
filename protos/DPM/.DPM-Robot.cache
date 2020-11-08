@@ -1,0 +1,11 @@
+Webots Proto Cache File version 1.5
+protoFileHash: c3ed50504c289b64063bf57e195b55be
+needsRobotAncestor: 0
+baseType: Robot
+slotType: 
+parameters: name,translation,rotation,children,controller
+tags: 
+license:  Creative Commons Attribution 4.0 International Public License
+licenseUrl:  https://creativecommons.org/licenses/by/4.0/legalcode
+documentationUrl: 
+info: ECSE211\s(DPM)\sRobot\sProto\sby\sOlivier\sSt-Martin\sCormier\nUnits\sare\smeters\n

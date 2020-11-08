@@ -1,0 +1,11 @@
+Webots Proto Cache File version 1.5
+protoFileHash: fc8420e4f3d0ce933cedd7618ef97482
+needsRobotAncestor: 0
+baseType: Transform
+slotType: 
+parameters: name,translation,rotation
+tags: 
+license:  Creative Commons Attribution 4.0 International Public License
+licenseUrl:  https://creativecommons.org/licenses/by/4.0/legalcode
+documentationUrl: 
+info: LEGO\sMindstorm\sNXT\sMotor\sby\sOlivier\sSt-Martin\sCormier\nLEGO(R)\sis\sa\strademark\sof\sthe\sLEGO\sGroup\sof\scompanies\swhich\sdoes\snot\ssponsor,\sauthorize\sor\sendorse\sthis\sfile.\n

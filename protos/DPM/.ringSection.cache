@@ -1,0 +1,11 @@
+Webots Proto Cache File version 1.5
+protoFileHash: 58d334d636229d0d93548e90d783e53d
+needsRobotAncestor: 0
+baseType: Shape
+slotType: 
+parameters: r1,r2,t1,t2,color,roughness,metalness,drawBackFace
+tags: 
+license:  Creative Commons Attribution 4.0 International Public License
+licenseUrl:  https://creativecommons.org/licenses/by/4.0/legalcode
+documentationUrl: 
+info: ECSE211\s(DPM)\sRing\sSection\sProto\sby\sOlivier\sSt-Martin\sCormier\nUnits\sare\smeters\n

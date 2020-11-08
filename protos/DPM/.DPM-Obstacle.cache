@@ -1,0 +1,11 @@
+Webots Proto Cache File version 1.5
+protoFileHash: b46d91e95fb47b1ca1bc980bc52d3bed
+needsRobotAncestor: 0
+baseType: Transform
+slotType: 
+parameters: name,position,rotation,radius,height,thickness,sections,tileSize
+tags: 
+license:  Creative Commons Attribution 4.0 International Public License
+licenseUrl:  https://creativecommons.org/licenses/by/4.0/legalcode
+documentationUrl: 
+info: ECSE211\s(DPM)\smarker\sshape\sProto\sby\sOlivier\sSt-Martin\sCormier\nUnits\sare\smeters\n
